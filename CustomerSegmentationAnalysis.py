@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu
 import plotly.express as px
 #=======================================================
-df = pd.read_csv("Dataset/Segmentasi Customer Analysis.csv")
+df = pd.read_csv("Segmentasi Customer Analysis.csv")
 
 #-------------------------------------------------------
 st.header("Fauzan Ikhsan Badri")
@@ -227,4 +227,5 @@ st.markdown("""
 st.header("🏁 Penutup:")
 st.write("Dengan strategi ini, bisnis bisa menumbuhkan pelanggan berkualitas tinggi, "
          "mempertahankan yang terbaik, dan membangun loyalitas jangka panjang melalui "
+
          "pendekatan personal & digital.")
